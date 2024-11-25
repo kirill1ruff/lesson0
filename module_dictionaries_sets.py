@@ -9,3 +9,10 @@ my_dict.update({'Alena': 2002,
 removed_value = my_dict.pop('Sergey',"Key not found")
 print("Delete volue:",removed_value)
 print('Modified dictionary:',my_dict)
+#
+my_set = {1,2,3,True,3,4.375,2,1,6, 'Apple', True, 'Apple'}
+print('Set:',my_set)
+my_set.add(2.25)
+my_set.add("Python")
+my_set.pop()
+print('Modified set:',my_set)
